@@ -25,19 +25,7 @@ public class ResultActivity extends AppCompatActivity {
 
         binding.image.setImageURI(getIntent().getData());
 
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                super.onAdLoaded();
-
-                if(mInterstitialAd.isLoaded())
-                    mInterstitialAd.show();
-            }
-        });
+      
 
     }
 }
