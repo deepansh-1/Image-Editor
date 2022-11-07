@@ -27,9 +27,9 @@ import java.io.ByteArrayOutputStream;
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
-    int IMAGE_REQUEST_CODE = 45;
-    int CAMERA_REQUEST_CODE = 14;
-    int RESULT_CODE = 200;
+    int IMAGE_REQUEST_CODES = 45;
+    int CAMERA_REQUEST_CODES = 14;
+    int RESULT_CODES = 200;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
